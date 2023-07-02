@@ -10,6 +10,6 @@
   ],
   "homepage": "https://www.segger.com/downloads/jlink/",
   "system": [
-    "linux_x86_64"
+    "linux_x86_64", "darwin_x86_64", "darwin_arm64"
   ]
 }
