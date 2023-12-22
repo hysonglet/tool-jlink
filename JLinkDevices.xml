@@ -1097,6 +1097,10 @@
   <!-- Synwit (Synwit) -->
   <!--                 -->
   <Device>
+    <ChipInfo Vendor="Synwit" Name="SWM166x8" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x1000" />
+    <FlashBankInfo Name="SWM166x8" BaseAddr="0x00000000" MaxSize="0x10000" Loader="Devices/Synwit/SWM166x8.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+  </Device>
+  <Device>
     <ChipInfo Vendor="Synwit" Name="SWM181xB" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x1000" />
     <FlashBankInfo Name="SWM181xB" BaseAddr="0x00000000" MaxSize="0x1E000" Loader="Devices/Synwit/SWM181xB.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
   </Device>
